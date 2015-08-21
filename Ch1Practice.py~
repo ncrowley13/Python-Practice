@@ -115,16 +115,16 @@ def punc_removal(x):
 ##the console and determines if they can be used in a correct arithmetic 
 ##formula (in the given order), like “a+b = c,” “a = b-c,” or “a * b = c.”
 
-def integer_relations(a, b, c):
-    if a + b == c:
+def integer_relations(a, b, c)
+    if a + b = c:
         print (a, "+", b, "=", c)
-    elif a == (b-c):
+    elif a = (b-c):
         print (a, "=", b, "-", c)
-    elif (a*b) == c:
+    elif (a*b) = c:
         print (a, "*", b, "=", c)
     else:
         print ("Your three integers are not related")
 
-integer_relations(3,5,11)
+integer_relations(4,5,9)
 
 
